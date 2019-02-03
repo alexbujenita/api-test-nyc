@@ -4,6 +4,11 @@
 
 fetch("http://ip-api.com/json/").then(res => { return res.json();}).then(data => {console.log(data) }).catch(err => {console.log(err)})
 
+// let ipAddress;
+// fetch("http://ip-api.com/json/")
+//   .then(res => { return res.json();})
+//   .then(data => {ipAddress = data; console.log(ipAddress) })
+//   .catch(err => {console.log(err)});
 
 
 

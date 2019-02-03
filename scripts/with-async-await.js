@@ -1,11 +1,4 @@
-//UP_TO_DATE
 // TRY IP FETCH   //////////////////////////////////////////
-
-// let ipAddress;
-// fetch("http://ip-api.com/json/")
-//   .then(res => { return res.json();})
-//   .then(data => {ipAddress = data; console.log(ipAddress) })
-//   .catch(err => {console.log(err)});
 
 async function myIp() {
   const queryResponse = await fetch("http://ip-api.com/json/");
@@ -133,11 +126,6 @@ const request = async () => {
         } else if (event.target.nextElementSibling.style.display === 'none') {
           event.target.nextElementSibling.style.display = 'inline-block';
         }
-
-        //
-        // event.target.nextElementSibling.style.display = 'inline-block';
-        // event.target.style.display = 'none'
-
       }
 
       container.appendChild(card);
