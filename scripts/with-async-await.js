@@ -1,3 +1,4 @@
+
 // TRY IP FETCH   //////////////////////////////////////////
 
 async function myIp() {
@@ -52,18 +53,7 @@ const request = async () => {
     }
 
     if(netAddress.clickCount === 666) {
-      function alertSpam() {
-        alert('BOO HOO HOO ;((')
-        for (let i = 10; i < 150; i+=2) {
-          document.write(`<h2 style="font-size:${i}; color:${(function () {
-            var num = Math.round(0xffffff * Math.random());
-            var r = num >> 16;
-            var g = num >> 8 & 255;
-            var b = num & 255;
-            return 'rgb(' + r + ', ' + g + ', ' + b + ')';
-          })()}">!!!NOW YOU\'VE DONE IT!!!</h2>`);
-        }
-      }
+
       setTimeout(alertSpam, 1000);
 
       const call = () => window.location.replace('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/6e73a6b8-8288-40ca-9197-1474bb806cb8/d3hz2py-7d7efa0d-e58b-4b5c-97ed-2df59ce894e9.jpg');
