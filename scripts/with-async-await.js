@@ -4,8 +4,6 @@
 async function myIp() {
   const queryResponse = await fetch("http://ip-api.com/json/");
   const jsonResp = await queryResponse.json();
-  console.log(queryResponse);
-  console.log(jsonResp);
   return jsonResp.query;
 }
 
@@ -14,7 +12,6 @@ async function myIp() {
 const request = async () => {
   const response = await fetch("https://data.cityofnewyork.us/resource/w7a6-9xrz.json");
   const obj = await response.json();
-  console.log(obj)
 
   const root = document.getElementById('root');
 
@@ -118,7 +115,7 @@ const request = async () => {
     const button = document.createElement('button');
     button.innerHTML = 'Facility Type'
     button.onclick = (event) => {
-      console.log(event);
+  
 
 
 
